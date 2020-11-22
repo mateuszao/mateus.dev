@@ -240,8 +240,8 @@ img {
 
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -5px;
+  bottom: -40px;
   width: 295px;
 }
 
@@ -486,16 +486,17 @@ img {
     bottom: 15%;
   }
 
-   .about__container{
+   .about__container,
+   skills__container {
      justify-items: center;
      width: 760px;
    }
 
-  .skills__container{
+ /*  .skills__container{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     text-align: initial;
-  }
+  } */
 
   .about__img img {
     width: 300px;
