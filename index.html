@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="assets/css/styles.css">
-
+    
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website complete</title>
+        <title>Mateus.Dev</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -43,9 +43,9 @@
                 </div>
         
                 <div class="home__social">
-                    <a href="#" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
-                    <a href="#" class="home__social-icon"><i class="bx bxl-behance"></i></a>
-                    <a href="#" class="home__social-icon"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mateus-garcia-paiva/" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+                    <!-- <a href="#" class="home__social-icon"><i class="bx bxl-behance"></i></a> -->
+                    <a href="https://github.com/mateuszao" class="home__social-icon"><i class="bx bxl-github"></i></a>
                 </div>
 
                 <div class="home__img"><img src="assets/img/3301602.png" alt=""></div>
@@ -64,7 +64,7 @@
                        <!--  <h2 class="about__subtitle">Eu sou Mateus</h2> -->
                         <p class="about__text">Sou estudante de sistema de computação pela UFF (Universidade Federal Fluminense)
                             programo tem 2 anos sou apaixonado pelo desenvolvimento 
-                            Front-End mas tambem tenho Skills no desenvolvimento Back-End, 
+                            Front-End mas tambem tenho Skills no desenvolvimento Back-End em PHP e seus Frameworks (Laravel, Symfony, Wordpress), 
                             aqui é onde coloco meus projetos de estudo e jobs que faço para servir como Portfolio </p>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
 
                 <div class="skills__container bd-grid">
                     <div>
-                        <h2 class="skills_subtitle">Minhas Skills</h2>
+                        <h2 class="skills__subtitle">Minhas Skills</h2>
                         <p class="skills__text">Um pouco das minhas Skills</p>
                   
                         <div class="skills__data">
@@ -86,7 +86,7 @@
                             </div>
 
                             <div>
-                                <span class="skills__percentage">95%</span>
+                                <span class="skills__percentage">80%</span>
                             </div>
                             
                             <div class="skills__bar skills__html"></div>
@@ -99,7 +99,7 @@
                             </div>
 
                             <div>
-                                <span class="skills__percentage">85%</span>
+                                <span class="skills__percentage">65%</span>
                             </div>
                             
                             <div class="skills__bar skills__css"></div>
@@ -112,7 +112,7 @@
                             </div>
 
                             <div>
-                                <span class="skills__percentage">65%</span>
+                                <span class="skills__percentage">60%</span>
                             </div>
                             
                             <div class="skills__bar skills__js"></div>
@@ -130,6 +130,32 @@
                             
                             <div class="skills__bar skills__ux"></div>
                         </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-git skills__icon'></i>
+                                <span class="skills__name">GIT</span>
+                            </div>
+
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                            
+                            <div class="skills__bar skills__git"></div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">PHP</span>
+                            </div>
+
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                            
+                            <div class="skills__bar skills__php"></div>
+                        </div>
                     </div>
                     <!-- <div>
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
@@ -141,28 +167,58 @@
             <section class="work section" id="work">
                 <h2 class="section-title">Trabalhos</h2>
                 <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
+                    <div class="work__img card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/work1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card__title">Corrida Integração</h5>
+                            <p class="card__text">Esse foi um site que fiz para uma corrida na minha cidade.</p>
+                            <a href="https://mateuszao.github.io/corridaIntegracao/" class="new-button">Ir para o site</a>
+                        </div>
+                    </div>
+                    
+                    <div class="work__img card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/work2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card__title">BikCraft</h5>
+                            <p class="card__text">Esse foi um site que fiz em um curso da Origamid.</p>
+                            <a href="https://mateuszao.github.io/projetoBickcreft/" class="new-button">Ir para o site</a>
+                        </div>
                     </div>
 
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
+                    <div class="work__img card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/work3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card__title">Caravan</h5>
+                            <p class="card__text">Esse foi um site que fiz em um curso da Origamid.</p>
+                            <a href="https://mateuszao.github.io/caravan/" class="new-button">Ir para o site</a>
+                        </div>
                     </div>
 
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
+                     <div class="work__img card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/work4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card__title">Hadfy</h5>
+                            <p class="card__text">Esse foi um site que desenvolvi no GamaAcademy.</p>
+                            <a href="https://mateuszao.github.io/hadfy/" class="new-button">Ir para o site</a>
+                        </div>
                     </div>
 
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
+                     <div class="work__img card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/work5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card__title">Levemente</h5>
+                            <p class="card__text">Esse foi um site que desenvolvi no GamaAcademy.</p>
+                            <a href="https://mateuszao.github.io/levemente/" class="new-button">Ir para o site</a>
+                        </div>
                     </div>
 
-                    <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </div>
-
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
+                     <div class="work__img card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/work6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card__title">Studio Movimento</h5>
+                            <p class="card__text">Esse foi um site que fiz para uma academia da minha cidade</p>
+                            <a href="https://mateuszao.github.io/studio-movimento/" class="new-button">Ir para o site</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -197,7 +253,7 @@
     
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
-
+    
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
     </body>
