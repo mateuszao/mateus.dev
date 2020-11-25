@@ -51,6 +51,7 @@
   box-sizing: border-box;
 }
 
+
 html{
   scroll-behavior: smooth;
 }
@@ -372,7 +373,7 @@ img {
 .work__img {
   border-radius: .5rem;
   overflow: hidden;
-  }
+}
 
 .work__img img {
   transition: 1s;
@@ -572,4 +573,12 @@ img {
 
 }
 
+@media screen and (max-width: 320px) {
+ .home__img {
+   position: absolute;
+   right: -10px;
+   bottom: -80px;
+   width: 295px;
+}
 
+}
