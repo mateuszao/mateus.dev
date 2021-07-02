@@ -345,19 +345,31 @@ img {
 }
 
 .skills__js {
+  width: 70%;
+}
+
+.skills__react {
   width: 60%;
 }
 
 .skills__ux {
-  width: 55%;
+  width: 70%;
 }
 
 .skills__git {
   width: 55%;
 }
 
+.skills__vue {
+  width: 65%;
+}
+
 .skills__php {
   width: 75%;
+}
+
+.skills__laravel {
+  width: 70%;
 }
 
 .skills__img {
